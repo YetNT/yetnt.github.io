@@ -1,0 +1,29 @@
+html {
+    height: 100%;
+    width: 100%;
+    background-color:rgb(56, 52, 75);
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    font-size: 2em;
+    text-align: center;
+}
+
+#space {
+    height:50%;
+    margin: 40%;
+}
+
+#mainBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.innerBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
